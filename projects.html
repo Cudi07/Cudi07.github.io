@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Meldion Torres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Showcasing my best work</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-logo">MT</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <main>
+            <section class="filter-section">
+                <h2>Project Gallery</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">UI/UX</button>
+                </div>
+            </section>
+
+            <section class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <img src="./pics/estimate.png" alt="E-commerce Platform">
+                    <div class="project-info">
+                        <h3>Estimate</h3>
+                        <p>An application that helps user estimate their needed savings for a time period</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Firebase</span>
+                        </div>
+                        <a href="estimate.html" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="mobile">
+                    <img src="./pics/period.png" alt="Fitness App">
+                    <div class="project-info">
+                        <h3>Periodic Table</h3>
+                        <p>A Elemental Table that has various information</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>HTML5/CSS3</span>
+                        </div>
+                        <a href="periodictable.html" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="design">
+                    <img src="/pics/merge.png" alt="Restaurant Website">
+                    <div class="project-info">
+                        <h3>Merge Sort Visualizer</h3>
+                        <p>UI Design for the Merge Sort algorithm</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <a href="merge-sort.html" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <img src="/pics/portfolio.png" alt="Portfolio Website">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Website that contains my portfolio</p>
+                        <div class="project-tags">
+                            <span>HTML5/CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="index.html" class="btn">View Project</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <div class="sidebar-section profile">
+                <img src="/pics/dp.png" alt="Profile Picture" class="profile-pic">
+                <h3>Meldion Torres</h3>
+                <p>University Student</p>
+                <p>Based in Pampanga, Philippines</p>
+            </div>
+
+            <div class="sidebar-section project-categories">
+                <h3>Project Categories</h3>
+                <ul>
+                    <li><a href="#" data-filter="web">Web Development (2)</a></li>
+                    <li><a href="#" data-filter="mobile">Mobile Apps (1)</a></li>
+                    <li><a href="#" data-filter="design">UI/UX Design (1)</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section technologies">
+                <h3>Technologies Used</h3>
+                <div class="technology-tags">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>Firebase</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section contact">
+                <h3>Interested in collaboration?</h3>
+                <p>Let's discuss your project ideas!</p>
+                <a href="#" class="btn">Contact Me</a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meldion Torres. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
